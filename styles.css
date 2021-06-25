@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+
+}
+
+
+li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: purple;
+  text-decoration: none;
+  list-style-type: none;
+  transition: all 0.3s ease 0s;
+}
+
+li a:hover {
+  color:gold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  
+}
+
+nav li {
+  display:inline-block;
+  padding: 0 40px;
+}
+
+.card {
+  width: 80%;
+  max-width:1024px;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+  background-image:url(/images/transparentGlass.png);
+  display: flex;
+  justify-content:space-between;
+  align-items:space-between;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+ 
+}
+
+.card p {
+  margin: 30px;
+}
+
+.hero {
+  background-image:url(/images/blackWidowKick.webp);
+  height: 400px;
+  width: 100%;
+  object-fit:contain;
+  margin-top: 50px;
+}
+
+h1 {
+  color:rgba(2,0,36,1);
+  position:relative;
+  float:right;
+  right: 200px;
+  top: 50px;
+  /*margin-right:200px;
+  margin-top:50px;
+  font-size: 45px;*/
+}
+
+footer {
+  padding: 20px;
+  background-color:purple;
+  color: whitesmoke;
+}
+
+footer p {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  
+}
+
+main .card .imgBx {
+  max-width: 300px;
+  flex: 0 0 300px;
+}
+
+main .card .imgBx img {
+  max-width: 100%;
+}
+
+main .card .content {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+
+@media (max-width: 768px)
+{
+  main
+  {
+    flex-direction: column;
+  }
+  main .card
+{
+  flex-direction: column;
+  max-width: 350;
+}
+main .card .imgBx
+{
+  max-width: 100%;
+}
+}
