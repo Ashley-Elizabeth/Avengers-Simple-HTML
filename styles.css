@@ -40,7 +40,7 @@ nav li {
   text-align: center;
   padding: 50px;
   margin: 0 auto;
-  background-image:url(/images/transparentGlass.png);
+  background-image:url(images/transparentGlass.png);
   display: flex;
   justify-content:space-between;
   align-items:space-between;
@@ -54,7 +54,7 @@ nav li {
 }
 
 .hero {
-  background-image:url(/images/blackWidowKick.webp);
+  background-image:url(images/blackWidowKick.webp);
   height: 400px;
   width: 100%;
   object-fit:contain;
